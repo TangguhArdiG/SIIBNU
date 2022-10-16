@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#808080">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_aceh"
+                        android:onClick="aceh" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5ssp"
+                        android:text="ACEH" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_sumut"
+                        android:onClick="sumut" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="SUMATERA UTARA" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_sumbar"
+                        android:onClick="sumbar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="SUMATERA BARAT" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_riau"
+                        android:onClick="riau" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="RIAU" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_kepri"
+                        android:onClick="kepri" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="KEPULAUAN RIAU" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_jambi"
+                        android:onClick="jambi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="JAMBI" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_bengkulu"
+                        android:onClick="bengkulu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="BENGKULU" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_sumsel"
+                        android:onClick="sumsel" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="SUMATERA SELATAN" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_babel"
+                        android:onClick="babel" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="BANGKA BELITUNG" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/logo_lampung"
+                        android:onClick="lampung" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="LAMPUNG" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

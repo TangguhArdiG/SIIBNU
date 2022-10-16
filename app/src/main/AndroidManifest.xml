@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siibnu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SIIBNU">
+        <activity android:name=".vidio"></activity>
+        <activity android:name=".ntb" />
+        <activity android:name=".ntt" />
+        <activity android:name=".nusa" />
+        <activity android:name=".dki" />
+        <activity android:name=".babel" />
+        <activity android:name=".sumsel" />
+        <activity android:name=".kepri" />
+        <activity android:name=".malukuu" />
+        <activity android:name=".hasil" />
+        <activity android:name=".malukut" />
+        <activity android:name=".sultengg" />
+        <activity android:name=".maluku" />
+        <activity android:name=".gorontalo" />
+        <activity android:name=".sulbar" />
+        <activity android:name=".sulut" />
+        <activity android:name=".sulteng" />
+        <activity android:name=".sulsel" />
+        <activity android:name=".kalut" />
+        <activity android:name=".kaltim" />
+        <activity android:name=".kalsel" />
+        <activity android:name=".kalteng" />
+        <activity android:name=".kalbar" />
+        <activity android:name=".papbar" />
+        <activity android:name=".papuaa" />
+        <activity android:name=".denpasar" />
+        <activity android:name=".diy" />
+        <activity android:name=".jatim" />
+        <activity android:name=".jateng" />
+        <activity android:name=".jabar" />
+        <activity android:name=".banten" />
+        <activity android:name=".lampung" />
+        <activity android:name=".bengkulu" />
+        <activity android:name=".jambi" />
+        <activity android:name=".riau" />
+        <activity android:name=".sumbar" />
+        <activity android:name=".kuis" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".sumut" />
+        <activity android:name=".papua" />
+        <activity android:name=".bali" />
+        <activity android:name=".sulawesi" />
+        <activity android:name=".aceh" />
+        <activity android:name=".kalimantan" />
+        <activity android:name=".jawa" />
+        <activity android:name=".Sumatera" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
